@@ -1,0 +1,32 @@
+****************************************
+Report : Averaged Power
+Design : fp32mulsc
+Version: T-2022.03-SP5
+Date   : Tue May 28 16:00:46 2024
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.525e-05 2.240e-05 2.668e-07 3.793e-05 (100.00%) 
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 2.240e-05   (59.07%)
+  Cell Internal Power  = 1.525e-05   (40.22%)
+  Cell Leakage Power   = 2.668e-07   ( 0.70%)
+                         ---------
+Total Power            = 3.793e-05  (100.00%)
+
+1

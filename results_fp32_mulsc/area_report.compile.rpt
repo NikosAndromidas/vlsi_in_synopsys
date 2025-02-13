@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : area
+Design : fp32mulsc
+Version: T-2022.03-SP5
+Date   : Tue May 28 15:31:29 2024
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                          441
+Number of nets:                          3778
+Number of cells:                         2887
+Number of combinational cells:           2881
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                       1247
+Number of references:                      48
+
+Combinational area:               4356.503980
+Buf/Inv area:                     1019.200335
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  4356.503980
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+fp32mulsc                         4356.5040    100.0   352.2528     0.0000  0.0000  fp32mulsc
+add_0_root_sub_0_root_sub_29        35.4586      0.8    35.4586     0.0000  0.0000  fp32mulsc_DW01_add_0
+add_37                              23.0947      0.5    23.0947     0.0000  0.0000  fp32mulsc_DW01_inc_2
+add_50                             144.6336      3.3   144.6336     0.0000  0.0000  fp32mulsc_DW01_inc_10
+add_53                              34.5254      0.8    34.5254     0.0000  0.0000  fp32mulsc_DW01_inc_6
+mult_32                           3766.5389     86.5  3493.1347     0.0000  0.0000  fp32mulsc_DW02_mult_0
+mult_32/FS_1                       273.4042      6.3   273.4042     0.0000  0.0000  fp32mulsc_DW01_add_5
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+Total                                                 4356.5040     0.0000  0.0000
+
+1

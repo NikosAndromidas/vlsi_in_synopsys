@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : fp32mulsc
+Version: T-2022.03-SP5
+Date   : Tue May 28 15:38:28 2024
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                           96
+Number of nets:                          2730
+Number of cells:                         2591
+Number of combinational cells:           2591
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        438
+Number of references:                      74
+
+Combinational area:               4258.526377
+Buf/Inv area:                      394.243201
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  4258.526377
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+fp32mulsc                         4258.5264    100.0  4258.5264     0.0000  0.0000  fp32mulsc
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+Total                                                 4258.5264     0.0000  0.0000
+
+1

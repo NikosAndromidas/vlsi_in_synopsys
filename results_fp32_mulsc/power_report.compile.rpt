@@ -1,0 +1,45 @@
+Loading db file '/usr/local/eda/synLibs/asap7/7nm/db/asap7.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : fp32mulsc
+Version: T-2022.03-SP5
+Date   : Tue May 28 15:31:31 2024
+****************************************
+
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+fp32mulsc                               351.277  230.461 3.02e+05  581.738 100.0
+  add_50 (fp32mulsc_DW01_inc_10)          9.460    9.179 7.60e+03   18.639   3.2
+  add_53 (fp32mulsc_DW01_inc_6)           2.030    1.312 1.99e+03    3.342   0.6
+  add_0_root_sub_0_root_sub_29 (fp32mulsc_DW01_add_0)
+                                          1.866    1.299 2.33e+03    3.165   0.5
+  mult_32 (fp32mulsc_DW02_mult_0)       302.554  193.061 2.66e+05  495.615  85.2
+  add_37 (fp32mulsc_DW01_inc_2)           0.801    0.771 1.47e+03    1.572   0.3
+1

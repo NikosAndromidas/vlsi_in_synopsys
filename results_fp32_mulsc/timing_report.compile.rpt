@@ -1,0 +1,110 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fp32mulsc
+Version: T-2022.03-SP5
+Date   : Tue May 28 15:31:29 2024
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+  Startpoint: a[27] (input port)
+  Endpoint: z[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  a[27] (in)                                              0.00       0.00 f
+  U366/Y (NOR4xp75_ASAP7_75t_R)                          19.97      19.97 r
+  U256/Y (NAND2x1_ASAP7_75t_R)                           17.45      37.42 f
+  mult_32/B[23] (fp32mulsc_DW02_mult_0)                   0.00      37.42 f
+  mult_32/U78/Y (NAND2xp5_ASAP7_75t_R)                   14.75      52.17 r
+  mult_32/U77/Y (XNOR2xp5_ASAP7_75t_R)                   22.34      74.51 r
+  mult_32/S2_2_21/SN (FAx1_ASAP7_75t_R)                  42.44     116.95 f
+  mult_32/U1616/Y (INVx1_ASAP7_75t_R)                    15.64     132.59 r
+  mult_32/S2_3_20/SN (FAx1_ASAP7_75t_R)                  37.87     170.46 f
+  mult_32/U1614/Y (INVx1_ASAP7_75t_R)                    15.25     185.71 r
+  mult_32/S2_4_19/SN (FAx1_ASAP7_75t_R)                  37.79     223.50 f
+  mult_32/U75/Y (INVx1_ASAP7_75t_R)                      15.51     239.01 r
+  mult_32/S2_5_18/SN (FAx1_ASAP7_75t_R)                  37.84     276.85 f
+  mult_32/U5/Y (INVx1_ASAP7_75t_R)                       15.25     292.10 r
+  mult_32/S2_6_17/SN (FAx1_ASAP7_75t_R)                  37.79     329.89 f
+  mult_32/U1619/Y (INVx1_ASAP7_75t_R)                    15.51     345.40 r
+  mult_32/S2_7_16/SN (FAx1_ASAP7_75t_R)                  37.84     383.24 f
+  mult_32/U99/Y (INVx1_ASAP7_75t_R)                      15.25     398.49 r
+  mult_32/S2_8_15/SN (FAx1_ASAP7_75t_R)                  37.79     436.28 f
+  mult_32/U6/Y (INVx1_ASAP7_75t_R)                       15.24     451.53 r
+  mult_32/S2_9_14/SN (FAx1_ASAP7_75t_R)                  37.79     489.32 f
+  mult_32/U1195/Y (INVx1_ASAP7_75t_R)                    15.50     504.82 r
+  mult_32/S2_10_13/SN (FAx1_ASAP7_75t_R)                 37.84     542.66 f
+  mult_32/U10/Y (INVx1_ASAP7_75t_R)                      15.24     557.90 r
+  mult_32/S2_11_12/SN (FAx1_ASAP7_75t_R)                 37.79     595.69 f
+  mult_32/U74/Y (INVx1_ASAP7_75t_R)                      15.50     611.20 r
+  mult_32/S2_12_11/SN (FAx1_ASAP7_75t_R)                 37.84     649.04 f
+  mult_32/U73/Y (INVx1_ASAP7_75t_R)                      15.50     664.54 r
+  mult_32/S2_13_10/SN (FAx1_ASAP7_75t_R)                 37.84     702.38 f
+  mult_32/U1406/Y (INVx1_ASAP7_75t_R)                    15.50     717.88 r
+  mult_32/S2_14_9/SN (FAx1_ASAP7_75t_R)                  37.84     755.72 f
+  mult_32/U1482/Y (INVx1_ASAP7_75t_R)                    15.50     771.22 r
+  mult_32/S2_15_8/SN (FAx1_ASAP7_75t_R)                  37.84     809.07 f
+  mult_32/U1680/Y (INVx1_ASAP7_75t_R)                    15.50     824.56 r
+  mult_32/S2_16_7/SN (FAx1_ASAP7_75t_R)                  37.84     862.41 f
+  mult_32/U1633/Y (INVx1_ASAP7_75t_R)                    15.50     877.91 r
+  mult_32/S2_17_6/SN (FAx1_ASAP7_75t_R)                  37.84     915.75 f
+  mult_32/U1635/Y (INVx1_ASAP7_75t_R)                    15.50     931.25 r
+  mult_32/S2_18_5/SN (FAx1_ASAP7_75t_R)                  37.84     969.09 f
+  mult_32/U1151/Y (INVx1_ASAP7_75t_R)                    15.50     984.59 r
+  mult_32/S2_19_4/SN (FAx1_ASAP7_75t_R)                  37.84    1022.43 f
+  mult_32/U3/Y (INVx1_ASAP7_75t_R)                       15.50    1037.93 r
+  mult_32/S2_20_3/SN (FAx1_ASAP7_75t_R)                  37.84    1075.77 f
+  mult_32/U1679/Y (INVx1_ASAP7_75t_R)                    15.50    1091.27 r
+  mult_32/S2_21_2/SN (FAx1_ASAP7_75t_R)                  32.54    1123.82 r
+  mult_32/U7/Y (INVxp67_ASAP7_75t_R)                     17.73    1141.55 f
+  mult_32/S2_22_1/CON (FAx1_ASAP7_75t_R)                 21.13    1162.68 r
+  mult_32/U1563/Y (INVx1_ASAP7_75t_R)                    16.69    1179.37 f
+  mult_32/S4_1/CON (FAx1_ASAP7_75t_R)                    23.92    1203.29 r
+  mult_32/U97/Y (INVxp67_ASAP7_75t_R)                    12.59    1215.89 f
+  mult_32/U559/Y (AND2x2_ASAP7_75t_R)                    22.10    1237.99 f
+  mult_32/FS_1/B[24] (fp32mulsc_DW01_add_5)               0.00    1237.99 f
+  mult_32/FS_1/U65/Y (NOR2xp33_ASAP7_75t_R)              11.44    1249.43 r
+  mult_32/FS_1/U67/Y (NOR2xp33_ASAP7_75t_R)              12.79    1262.22 f
+  mult_32/FS_1/U76/Y (NAND3xp33_ASAP7_75t_R)             13.94    1276.16 r
+  mult_32/FS_1/U71/Y (INVx1_ASAP7_75t_R)                 10.32    1286.48 f
+  mult_32/FS_1/U111/Y (AOI31xp33_ASAP7_75t_R)            16.39    1302.87 r
+  mult_32/FS_1/U108/Y (NAND3xp33_ASAP7_75t_R)            18.81    1321.68 f
+  mult_32/FS_1/U56/Y (XNOR2xp5_ASAP7_75t_R)              26.54    1348.22 f
+  mult_32/FS_1/SUM[45] (fp32mulsc_DW01_add_5)             0.00    1348.22 f
+  mult_32/PRODUCT[47] (fp32mulsc_DW02_mult_0)             0.00    1348.22 f
+  U263/Y (INVxp67_ASAP7_75t_R)                           15.54    1363.75 r
+  U257/Y (BUFx6f_ASAP7_75t_R)                            27.41    1391.16 r
+  U376/Y (AO22x2_ASAP7_75t_R)                            33.43    1424.60 r
+  add_53/A[0] (fp32mulsc_DW01_inc_6)                      0.00    1424.60 r
+  add_53/U21/Y (NAND3xp33_ASAP7_75t_R)                   14.54    1439.13 f
+  add_53/U3/Y (NOR4xp25_ASAP7_75t_R)                     26.54    1465.68 r
+  add_53/U25/Y (XOR2x2_ASAP7_75t_R)                      29.30    1494.98 r
+  add_53/SUM[6] (fp32mulsc_DW01_inc_6)                    0.00    1494.98 r
+  U399/Y (NAND5xp2_ASAP7_75t_R)                          17.52    1512.50 f
+  U332/Y (OA22x2_ASAP7_75t_R)                            42.67    1555.17 f
+  U260/Y (NAND2x1p5_ASAP7_75t_R)                         21.61    1576.78 r
+  U403/Y (OAI222xp33_ASAP7_75t_R)                        17.14    1593.92 f
+  z[3] (out)                                              0.00    1593.92 f
+  data arrival time                                               1593.92
+
+  max_delay                                             180.00     180.00
+  output external delay                                   0.00     180.00
+  data required time                                               180.00
+  --------------------------------------------------------------------------
+  data required time                                               180.00
+  data arrival time                                              -1593.92
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                               -1413.92
+
+
+1
