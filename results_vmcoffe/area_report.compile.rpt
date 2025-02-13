@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : vmcoffee
+Version: T-2022.03-SP5
+Date   : Mon May 27 22:16:48 2024
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                           13
+Number of nets:                            42
+Number of cells:                           31
+Number of combinational cells:             29
+Number of sequential cells:                 2
+Number of macros/black boxes:               0
+Number of buf/inv:                          9
+Number of references:                      13
+
+Combinational area:                 29.859840
+Buf/Inv area:                        6.298560
+Noncombinational area:              12.130560
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    41.990400
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+vmcoffee                            41.9904    100.0   29.8598    12.1306  0.0000  vmcoffee
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  29.8598    12.1306  0.0000
+
+1

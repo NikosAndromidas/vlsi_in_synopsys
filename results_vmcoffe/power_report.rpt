@@ -1,0 +1,32 @@
+****************************************
+Report : Averaged Power
+Design : vmcoffee
+Version: T-2022.03-SP5
+Date   : Mon May 27 22:21:32 2024
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.242e-07 1.522e-07 2.037e-09 2.785e-07 (97.58%)  
+sequential              6.333e-09    0.0000 5.729e-10 6.906e-09 ( 2.42%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 1.522e-07   (53.33%)
+  Cell Internal Power  = 1.306e-07   (45.75%)
+  Cell Leakage Power   = 2.610e-09   ( 0.91%)
+                         ---------
+Total Power            = 2.854e-07  (100.00%)
+
+1
