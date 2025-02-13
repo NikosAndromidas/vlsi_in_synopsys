@@ -1,0 +1,18 @@
+Information: Reading file fp32mul.fsdb to annotate toggle rates on the design...
+Information: Enabling native fsdb reader. 
+Information: Reading fsdb file '/home/vlsi2_2024_5/lab5/fp32mul.fsdb'
+** FSDB version : 6.0
+** FSDB Reader version : Verdi_S-2021.09-SP1-1
+** FSDB version supported upto: 6.0
+Information: Simulation Start Time : 0.000000 ns, Simulation End Time : 40080.240000 ns, Total Simulation Time : 40080.240000 ns
+
+======================================================================
+Summary:
+Total number of nets = 3772
+Number of annotated nets = 3772 (100.00%)
+Total number of leaf cells = 3665
+Number of fully annotated leaf cells = 3650 (99.59%)
+======================================================================
+
+Information: Total number of synthesis invariant points = 257 , annotated synthesis invariant points = 257, annotation_ratio = 100.00%
+1

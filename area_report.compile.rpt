@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : area
+Design : fp32mul
+Version: T-2022.03-SP5
+Date   : Tue May 28 17:40:19 2024
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                          467
+Number of nets:                          4826
+Number of cells:                         3900
+Number of combinational cells:           3703
+Number of sequential cells:               191
+Number of macros/black boxes:               0
+Number of buf/inv:                       1450
+Number of references:                      70
+
+Combinational area:               5273.527653
+Buf/Inv area:                     1159.634889
+Noncombinational area:             896.495008
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  6170.022662
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------------
+fp32mul                           6170.0227    100.0  1170.5990   896.4950  0.0000  fp32mul
+add_109                             41.2906      0.7    41.2906     0.0000  0.0000  fp32mul_DW01_add_2
+add_123                            239.1120      3.9   239.1120     0.0000  0.0000  fp32mul_DW01_inc_2
+add_125                             30.0931      0.5    30.0931     0.0000  0.0000  fp32mul_DW01_inc_0_DW01_inc_1
+add_1_root_add_96_2                 44.7898      0.7    44.7898     0.0000  0.0000  fp32mul_DW01_add_1
+mult_97                           3747.6432     60.7  3487.5360     0.0000  0.0000  fp32mul_DW02_mult_0
+mult_97/FS_1                       260.1072      4.2   260.1072     0.0000  0.0000  fp32mul_DW01_add_4
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------------
+Total                                                 5273.5277   896.4950  0.0000
+
+1

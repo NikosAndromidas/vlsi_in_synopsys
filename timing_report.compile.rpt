@@ -1,0 +1,103 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fp32mul
+Version: T-2022.03-SP5
+Date   : Tue May 28 17:40:19 2024
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+  Startpoint: a_m_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[43]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  a_m_reg[1]/CLK (DFFHQNx1_ASAP7_75t_R)                   0.00       0.00 r
+  a_m_reg[1]/QN (DFFHQNx1_ASAP7_75t_R)                   51.59      51.59 f
+  mult_97/A[1] (fp32mul_DW02_mult_0)                      0.00      51.59 f
+  mult_97/U100/Y (BUFx6f_ASAP7_75t_R)                    28.12      79.71 f
+  mult_97/U1136/Y (AND2x2_ASAP7_75t_R)                   23.20     102.91 f
+  mult_97/U11/Y (AND2x2_ASAP7_75t_R)                     21.23     124.14 f
+  mult_97/S2_2_21/CON (FAx1_ASAP7_75t_R)                 21.06     145.19 r
+  mult_97/U1732/Y (INVx1_ASAP7_75t_R)                    16.92     162.12 f
+  mult_97/S2_3_21/CON (FAx1_ASAP7_75t_R)                 21.82     183.93 r
+  mult_97/U1438/Y (INVx1_ASAP7_75t_R)                    17.36     201.29 f
+  mult_97/S2_4_21/SN (FAx1_ASAP7_75t_R)                  38.46     239.76 f
+  mult_97/U1775/Y (INVx1_ASAP7_75t_R)                    15.08     254.84 r
+  mult_97/S2_5_20/SN (FAx1_ASAP7_75t_R)                  37.76     292.59 f
+  mult_97/U1596/Y (INVx1_ASAP7_75t_R)                    15.08     307.67 r
+  mult_97/S2_6_19/SN (FAx1_ASAP7_75t_R)                  37.76     345.43 f
+  mult_97/U1499/Y (INVx1_ASAP7_75t_R)                    15.08     360.50 r
+  mult_97/S2_7_18/SN (FAx1_ASAP7_75t_R)                  37.76     398.26 f
+  mult_97/U110/Y (INVx1_ASAP7_75t_R)                     15.21     413.48 r
+  mult_97/S2_8_17/SN (FAx1_ASAP7_75t_R)                  37.78     451.26 f
+  mult_97/U1773/Y (INVx1_ASAP7_75t_R)                    15.08     466.34 r
+  mult_97/S2_9_16/SN (FAx1_ASAP7_75t_R)                  37.76     504.09 f
+  mult_97/U1717/Y (INVx1_ASAP7_75t_R)                    15.08     519.17 r
+  mult_97/S2_10_15/SN (FAx1_ASAP7_75t_R)                 37.76     556.93 f
+  mult_97/U1069/Y (INVx1_ASAP7_75t_R)                    15.21     572.14 r
+  mult_97/S2_11_14/SN (FAx1_ASAP7_75t_R)                 37.78     609.93 f
+  mult_97/U115/Y (INVx1_ASAP7_75t_R)                     15.21     625.14 r
+  mult_97/S2_12_13/SN (FAx1_ASAP7_75t_R)                 37.78     662.93 f
+  mult_97/U1771/Y (INVx1_ASAP7_75t_R)                    15.08     678.00 r
+  mult_97/S2_13_12/SN (FAx1_ASAP7_75t_R)                 37.76     715.76 f
+  mult_97/U1772/Y (INVx1_ASAP7_75t_R)                    15.21     730.97 r
+  mult_97/S2_14_11/SN (FAx1_ASAP7_75t_R)                 37.78     768.76 f
+  mult_97/U1680/Y (INVx1_ASAP7_75t_R)                    15.21     783.97 r
+  mult_97/S2_15_10/SN (FAx1_ASAP7_75t_R)                 37.78     821.76 f
+  mult_97/U125/Y (INVx1_ASAP7_75t_R)                     15.21     836.97 r
+  mult_97/S2_16_9/SN (FAx1_ASAP7_75t_R)                  37.78     874.76 f
+  mult_97/U124/Y (INVx1_ASAP7_75t_R)                     15.21     889.97 r
+  mult_97/S2_17_8/SN (FAx1_ASAP7_75t_R)                  37.78     927.75 f
+  mult_97/U126/Y (INVx1_ASAP7_75t_R)                     15.21     942.97 r
+  mult_97/S2_18_7/SN (FAx1_ASAP7_75t_R)                  37.78     980.75 f
+  mult_97/U121/Y (INVx1_ASAP7_75t_R)                     15.22     995.97 r
+  mult_97/S2_19_6/SN (FAx1_ASAP7_75t_R)                  37.79    1033.75 f
+  mult_97/U118/Y (INVx1_ASAP7_75t_R)                     15.21    1048.97 r
+  mult_97/S2_20_5/SN (FAx1_ASAP7_75t_R)                  37.78    1086.75 f
+  mult_97/U117/Y (INVx1_ASAP7_75t_R)                     15.21    1101.96 r
+  mult_97/S2_21_4/SN (FAx1_ASAP7_75t_R)                  37.78    1139.75 f
+  mult_97/U122/Y (INVx1_ASAP7_75t_R)                     15.21    1154.96 r
+  mult_97/S2_22_3/SN (FAx1_ASAP7_75t_R)                  37.78    1192.75 f
+  mult_97/U119/Y (INVx1_ASAP7_75t_R)                     15.22    1207.96 r
+  mult_97/S4_2/SN (FAx1_ASAP7_75t_R)                     34.36    1242.32 f
+  mult_97/U10/Y (INVxp67_ASAP7_75t_R)                    17.10    1259.43 r
+  mult_97/U17/Y (AND2x2_ASAP7_75t_R)                     24.96    1284.38 r
+  mult_97/FS_1/B[24] (fp32mul_DW01_add_4)                 0.00    1284.38 r
+  mult_97/FS_1/U149/Y (NAND2xp5_ASAP7_75t_R)              9.23    1293.62 f
+  mult_97/FS_1/U148/Y (NAND2xp5_ASAP7_75t_R)             15.73    1309.35 r
+  mult_97/FS_1/U57/Y (A2O1A1Ixp33_ASAP7_75t_R)           18.68    1328.03 f
+  mult_97/FS_1/U48/Y (AND2x2_ASAP7_75t_R)                26.16    1354.19 f
+  mult_97/FS_1/U18/Y (NAND3xp33_ASAP7_75t_R)             14.15    1368.34 r
+  mult_97/FS_1/U94/Y (AOI21xp5_ASAP7_75t_R)              15.79    1384.13 f
+  mult_97/FS_1/U93/Y (XOR2xp5_ASAP7_75t_R)               20.47    1404.60 f
+  mult_97/FS_1/SUM[39] (fp32mul_DW01_add_4)               0.00    1404.60 f
+  mult_97/PRODUCT[41] (fp32mul_DW02_mult_0)               0.00    1404.60 f
+  U1580/Y (OAI22xp5_ASAP7_75t_R)                         14.49    1419.08 r
+  product_reg[43]/D (DFFHQNx1_ASAP7_75t_R)                0.00    1419.08 r
+  data arrival time                                               1419.08
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  product_reg[43]/CLK (DFFHQNx1_ASAP7_75t_R)              0.00     100.00 r
+  library setup time                                    -19.03      80.97
+  data required time                                                80.97
+  --------------------------------------------------------------------------
+  data required time                                                80.97
+  data arrival time                                              -1419.08
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                               -1338.12
+
+
+1
