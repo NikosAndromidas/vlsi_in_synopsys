@@ -1,0 +1,18 @@
+Information: Reading file shiftregister.fsdb to annotate toggle rates on the design...
+Information: Enabling native fsdb reader. 
+Information: Reading fsdb file '/home/vlsi2_2024_5/lab5/shiftregister.fsdb'
+** FSDB version : 6.0
+** FSDB Reader version : Verdi_S-2021.09-SP1-1
+** FSDB version supported upto: 6.0
+Information: Simulation Start Time : 0.000000 ns, Simulation End Time : 4010.080000 ns, Total Simulation Time : 4010.080000 ns
+
+======================================================================
+Summary:
+Total number of nets = 27
+Number of annotated nets = 27 (100.00%)
+Total number of leaf cells = 17
+Number of fully annotated leaf cells = 17 (100.00%)
+======================================================================
+
+Information: Total number of synthesis invariant points = 14 , annotated synthesis invariant points = 14, annotation_ratio = 100.00%
+1
