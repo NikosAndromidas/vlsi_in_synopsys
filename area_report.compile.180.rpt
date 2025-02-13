@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : argmax
+Version: T-2022.03-SP5
+Date   : Mon May 27 23:57:08 2024
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                           44
+Number of nets:                           757
+Number of cells:                          717
+Number of combinational cells:            717
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        209
+Number of references:                      70
+
+Combinational area:                946.183678
+Buf/Inv area:                      239.811840
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   946.183678
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+argmax                             946.1837    100.0  946.1837     0.0000  0.0000  argmax
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 946.1837     0.0000  0.0000
+
+1

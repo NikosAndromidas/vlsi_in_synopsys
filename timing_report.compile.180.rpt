@@ -1,0 +1,60 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : argmax
+Version: T-2022.03-SP5
+Date   : Mon May 27 23:57:08 2024
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+  Startpoint: array_i[5] (input port)
+  Endpoint: index_o[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  array_i[5] (in)                          0.00       0.00 r
+  U347/Y (INVx4_ASAP7_75t_R)               1.97       1.97 f
+  U757/Y (AOI211xp5_ASAP7_75t_R)          19.07      21.04 r
+  U824/Y (AOI311xp33_ASAP7_75t_R)         13.38      34.42 f
+  U474/Y (OAI21xp5_ASAP7_75t_R)           15.18      49.60 r
+  U778/Y (NAND2xp5_ASAP7_75t_R)           13.23      62.83 f
+  U409/Y (AND2x2_ASAP7_75t_R)             23.09      85.91 f
+  U357/Y (OAI31xp67_ASAP7_75t_R)          22.80     108.71 r
+  U760/Y (AND2x2_ASAP7_75t_R)             23.02     131.74 r
+  U358/Y (AOI31xp33_ASAP7_75t_R)           8.98     140.71 f
+  U781/Y (NAND2xp5_ASAP7_75t_R)           17.00     157.71 r
+  U697/Y (NAND3xp33_ASAP7_75t_R)          19.02     176.73 f
+  U223/Y (NAND2xp5_ASAP7_75t_R)           15.51     192.24 r
+  U519/Y (OA21x2_ASAP7_75t_R)             24.26     216.50 r
+  U301/Y (AND2x2_ASAP7_75t_R)             20.34     236.85 r
+  U374/Y (NAND3xp33_ASAP7_75t_R)          11.24     248.09 f
+  U194/Y (NOR2xp33_ASAP7_75t_R)           13.99     262.07 r
+  U752/Y (OAI31xp33_ASAP7_75t_R)          14.84     276.92 f
+  U750/Y (OAI31xp33_ASAP7_75t_R)          20.57     297.49 r
+  U747/Y (INVx1_ASAP7_75t_R)              14.37     311.85 f
+  U395/Y (NAND2xp5_ASAP7_75t_R)           16.76     328.62 r
+  U771/Y (AOI221xp5_ASAP7_75t_R)          20.81     349.43 f
+  U841/Y (OAI211xp5_ASAP7_75t_R)          14.78     364.21 r
+  index_o[0] (out)                         0.00     364.21 r
+  data arrival time                                 364.21
+
+  max_delay                              180.00     180.00
+  output external delay                    0.00     180.00
+  data required time                                180.00
+  -----------------------------------------------------------
+  data required time                                180.00
+  data arrival time                                -364.21
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -184.21
+
+
+1

@@ -1,0 +1,32 @@
+****************************************
+Report : Averaged Power
+Design : argmax
+Version: T-2022.03-SP5
+Date   : Tue May 28 00:03:47 2024
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           4.254e-05 5.272e-05 7.378e-08 9.534e-05 (100.00%) 
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 5.272e-05   (55.30%)
+  Cell Internal Power  = 4.254e-05   (44.62%)
+  Cell Leakage Power   = 7.378e-08   ( 0.08%)
+                         ---------
+Total Power            = 9.534e-05  (100.00%)
+
+1
