@@ -1,0 +1,18 @@
+Information: Reading file rca.fsdb to annotate toggle rates on the design...
+Information: Enabling native fsdb reader. 
+Information: Reading fsdb file '/home/vlsi2_2024_5/lab5/rca.fsdb'
+** FSDB version : 6.0
+** FSDB Reader version : Verdi_S-2021.09-SP1-1
+** FSDB version supported upto: 6.0
+Information: Simulation Start Time : 0.000000 ns, Simulation End Time : 1310715.050000 ns, Total Simulation Time : 1310715.050000 ns
+
+======================================================================
+Summary:
+Total number of nets = 65
+Number of annotated nets = 65 (100.00%)
+Total number of leaf cells = 47
+Number of fully annotated leaf cells = 39 (82.98%)
+======================================================================
+
+Information: Total number of synthesis invariant points = 18 , annotated synthesis invariant points = 18, annotation_ratio = 100.00%
+1
